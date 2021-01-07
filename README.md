@@ -3,4 +3,4 @@ A self-organizing map (SOM) is a type of artificial neural network that is train
 
 The dataset includes 16 columns: the first one is the customer ID and the last one the class (approved, non approve). The total number of observation is 690. 
 
-![alt text](C:\Users\gianl\Self_Organizing_Maps\pie.png)
+![alt text](https://github.com/Gianl-msi/Self-Organizing-Maps/blob/main/Images/pie.png)

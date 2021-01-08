@@ -1,7 +1,7 @@
 # Self-Organizing-Maps
 A self-organizing map (SOM) is a type of artificial neural network that is trained using unsupervised learning to produce a low-dimensional, discretized representation of the input space of the training samples, called a map, and is therefore a method to do dimensionality reduction. The demo I made here shows how powerfull SOMs are. I used the Credit Approval Data Set from the UCI Machine learning Repository (https://archive.ics.uci.edu/ml/datasets/Credit+Approval). 
 
-The dataset includes 16 columns: the first one is the customer ID and the last one whether the application was approved or not; the remaining 14 columns represent specific features of the applicants and were used to the train the SOM models. The total number of observation is 690. The pie chart below shows that the two classes are fairly balanced.
+The dataset includes 16 columns: the first one is the customer ID and the last one indicates whether the application was approved or not; the remaining 14 columns represent specific features of the applicants and were used to train the SOM models. The total number of observations is 690. The pie chart below shows that the two classes are fairly balanced.
 
 ![pie](https://github.com/Gianl-msi/Self-Organizing-Maps/blob/main/Images/pie.png)
 
@@ -13,9 +13,9 @@ I created a SOM with 100 nodes and one with 81 nodes. The latter has less empty 
 ![img3](https://github.com/Gianl-msi/Self-Organizing-Maps/blob/main/Images/som81_plus_jitter.png)
 
 The addition of some jittering to the value of the x,y coordinates allows a better understanding of how the samples are distributed.
-There are three clear clusters:
+There are three clusters:
  - Top left cluster: mostly green squares
  - The cluster localized on the diagonal: mostly red cyrcles
  - Bottom right cluster:  mostly green squares
  
-There two nodes whose mean interneuron distance (MID) is almost one (3,7 and 8,2): these contain several outliers. 
+There are two nodes whose mean interneuron distance (MID) is almost one (3,7 and 8,2): these nodes contain several outliers. 

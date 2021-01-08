@@ -4,3 +4,6 @@ A self-organizing map (SOM) is a type of artificial neural network that is train
 The dataset includes 16 columns: the first one is the customer ID and the last one the class (approved, non approve). The total number of observation is 690. The pie chart below shows that the two classes are fairly balanced.
 
 ![alt text]()
+
+To create SOMs I utilized the MiniSom class from the Minisom package (https://github.com/JustGlowing/minisom)
+I created a SOM with 100 nodes and one with 81 nodes. The latter has less empty nodes and thus better fit the dataset I have. Finally to better display the datapoints on the plot I introduced some jitter to the (x,y) coordinate values.  

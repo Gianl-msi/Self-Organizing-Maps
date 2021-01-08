@@ -1,7 +1,7 @@
 # Self-Organizing-Maps
 A self-organizing map (SOM) is a type of artificial neural network that is trained using unsupervised learning to produce a low-dimensional, discretized representation of the input space of the training samples, called a map, and is therefore a method to do dimensionality reduction. The demo I made here shows how powerfull SOMs are. I used the Credit Approval Data Set from the UCI Machine learning Repository (https://archive.ics.uci.edu/ml/datasets/Credit+Approval). 
 
-The dataset includes 16 columns: the first one is the customer ID and the last one the class (approved, non approve); the remaining 14 columns represent specific features of the applicants and were used to the train the SOM models. The total number of observation is 690. The pie chart below shows that the two classes are fairly balanced.
+The dataset includes 16 columns: the first one is the customer ID and the last one whether the application was approved or not; the remaining 14 columns represent specific features of the applicants and were used to the train the SOM models. The total number of observation is 690. The pie chart below shows that the two classes are fairly balanced.
 
 ![pie](https://github.com/Gianl-msi/Self-Organizing-Maps/blob/main/Images/pie.png)
 

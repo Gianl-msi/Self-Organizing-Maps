@@ -18,4 +18,4 @@ There are three clear clusters:
  - The cluster localized on the diagonal: mostly red cyrcles
  - Bottom right cluster:  mostly green squares
  
-There two nodes whose mean interneuron distance (MID) is almost one (4,8 and 7,7): these contain several outliers. 
+There two nodes whose mean interneuron distance (MID) is almost one (3,7 and 8,2): these contain several outliers. 

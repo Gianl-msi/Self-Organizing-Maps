@@ -7,3 +7,5 @@ The dataset includes 16 columns: the first one is the customer ID and the last o
 
 To create SOMs I utilized the MiniSom class from the Minisom package (https://github.com/JustGlowing/minisom)
 I created a SOM with 100 nodes and one with 81 nodes. The latter has less empty nodes and thus better fit the dataset I have. Finally to better display the datapoints on the plot I introduced some jitter to the (x,y) coordinate values.  
+
+![img](https://github.com/Gianl-msi/Self-Organizing-Maps/blob/main/Images/som100.png)
